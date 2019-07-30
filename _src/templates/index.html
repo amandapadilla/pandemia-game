@@ -1,17 +1,140 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<title>Adalab Web Starter Kit</title>
-  <link rel="icon" href="favicon.png"/>
-	<link rel="stylesheet" href="assets/css/main.css">
-</head>
-<body>
-  <div class="page">
-    <partial src="_header.html" label="Header"></partial>
-    <partial src="_main.html" label="Main"></partial>
-    <partial src="_link.html" aClass="link__adalab" text="Adalab" url="https://adalab.es"></partial>
-    <partial src="_link.html" aClass="link__github" text="GitHub" url="https://github.com"></partial>
-  </div>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dosis&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <title>PANDEMIA GAME</title>
+  </head>
+  <body class="body">
+    <header class="header">
+      <h1 class="header__title">PANDEMIA GAME</h1>
+      <nav class="header__menu">
+        <ul class="header__list">
+          <li class="header__list--origin"><a href="#">Origen</a></li>
+          <li class="header__list--game"><a href="#">El juego</a></li>
+          <li class="header__list--credits"><a href="#">Créditos</a></li>
+          <li class="header__list--documentation">
+            <a href="#">Materiales</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Animación typing -->
+    <section>
+      <div>
+        <button>
+          <h2>Reproducir aviso informativo</h2>
+        </button>
+        <!-- <video src="./src/PANDEMIA GAME.mp4"></video> -->
+      </div>
+      <div>
+        <button>
+          <h2>Leer comunicado</h2>
+        </button>
+      </div>
+      <aside>
+        <p>
+          Ciudadanía mundial están PANDEMIA, el Gran Estado resultante de la
+          lucha global contra la guerra bacteriológica.
+          <br />
+          El 31 de Diciembre de 2111 el grupo terrorista ἐλεύθερος (Eleuteros)
+          bombardeó con ojivas de racimo de dispersión bacteriana la atmósfera
+          terrestre. Este ataque desencadenó una PANDEMIA con efectos
+          secundarios devastadores para la población. La Asamblea Internacional
+          creó el Comité de Control Patológico para detener la catástrofe,
+          tomando como primera medida la creación de un Gran Estado unificado al
+          que nombraron PANDEMIA, en homenaje a los caídos en tan brutal acto
+          terrorista. Esta unificación global permitiría controlar los
+          movimientos y comportamientos de las personas infectadas para así
+          detener la propagación.
+          <br />
+          El Gran Estado garantiza la reinserción de los infectados en la
+          sociedad pandémica, siempre y cuando acepten las condiciones
+          establecidas por el Comité de Control Patológico. Ustedes son un grupo
+          de personas infectadas que despiertan de la cuarentena y son obligadas
+          a tomar una decisión definitiva: Aceptar la vida que les ofrece
+          PANDEMIA, acatando sus normas y condiciones. O continuar su vida como
+          sujetos infecciosos incumpliendo las condiciones aislándose del resto
+          de la sociedad en unas instalaciones terapéuticas de PANDEMIA. Si
+          ninguna de las opciones les convence, serán desterrados a KAOS, la
+          anarquía terrorista. Para facilitar la elección se les permitirá
+          debatir entre ellos las ventajas e inconvenientes de cada opción.
+        </p>
+      </aside>
+    </section>
+    <main>
+      <nav>
+        <ul>
+          <li><a>Twitter</a></li>
+          <li><a href="Github">Github</a></li>
+        </ul>
+      </nav>
+      <article>
+        <p>Instrucciones - Comienza a Jugar</p>
+      </article>
+      <button>
+        <img
+          src="./src/images/noun_Biohazard_997859.png"
+          alt="Pulsa aquí para barajar"
+        />
+      </button>
+      <form action="number">
+          <label for="">Número de participantes</label>
+          <input type="number" placeholder="De 2 a 12" />
+          <input type="submit" />
+      </form>
+      <div>
+          <img src="bacteria" alt="nombre de la bacteria" />
+          <h3>Nombre de la bacteria</h3>
+          <p>Breve descripción de la bacteria</p>
+          <p>Características</p>
+          <!-- Crear mixins de tarjeta *12 -->
+      </div>
+      <article>
+        <p>INSTRUCCIONES DE JUEGO</p>
+      </article>
+      <section>
+        <div>  
+        <h3>Cuestión</h3>
+          <img src="icon?" alt="Cuestión" />
+          <button>
+            <img src="botonpetri" alt="Cuestión" />
+          </button>
+        </div>
+      </section>
+      <section>
+        <div>
+          <h3>Condición</h3>
+          <img src="icon?" alt="Condición" />
+          <button>
+            <img src="botonpetri" alt="Condición" />
+          </button>
+        </div>
+      </section>
+      <section>
+        <div>
+          <h3>Mutación</h3>
+          <button>
+            <img src="botonpetri" alt="Mutación" />
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <small>
+        <a href="mailto:"></a>
+      </small>
+      <iframe>
+      </iframe>
+      <img src="logo-tianguis" alt="Una creación de Tianguis ProdActions">
+      <img src="logo-pandemialab" alt="pandemia lab">
+    </footer>
+    <script type="text/javascript" src="./js/main.js"></script>
+  </body>
 </html>
